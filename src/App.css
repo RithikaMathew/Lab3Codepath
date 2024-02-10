@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 25px;
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: auto;
+}
+
+.mini-header {
+  height: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(226, 195, 147);
+  text-align: center;
+  border-radius: 10px;
+  width: 93%;
+  margin: 0;
+}
+
+#wrong {
+  background-color: rgb(246, 158, 158);
+  width: 200px;
+  height: auto;
+
+}
+
+#correct {
+  background-color: rgb(166, 249, 181);
+  width: 200px;
+  height: auto;
+}
+
+.answer-space {
+  background-color: rgb(226, 195, 147);
+  width: 200px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  margin-left: auto;
+  clear: both;
+}
+
+li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #FFFDD0;
+  border-radius: 15px;
+}
+
+.button {
+  background-color: rgba(138, 98, 12, 0.942);
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.drink-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 26px;
+  /* adjust as needed */
+  color: #333;
+  /* adjust as needed */
+}
+
+img {
+  width: 150px;
+  /* adjust as needed */
+  height: auto;
+  /* adjust as needed */
+}
+
+.alert-background {
+  background-color: red;
+}
